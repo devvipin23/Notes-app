@@ -51,7 +51,7 @@ const App = () =>
         <button className='border 1 w-full bg-black border-white text-white py-5 px-10 w-1/2 rounded text-lg'>Add Notes</button>
 
       </form>
-      <div className='lg:border-l-2 ml-5 lg:border-t-0 border-t-2 lg:w-1/2 lg:h-screen py-5 px-20 lg:p-10 flex-col flex'>
+      <div className='lg:border-l-2 ml-0 lg:border-t-0 border-t-2 lg:w-1/2 lg:h-screen py-5 px-20 lg:p-10 flex-col flex'>
       <h1 className='font-bold text-2xl'>Your Notes</h1>
       <div className='flex flex-wrap flex-1 gap-5 mt-5 h-screen scrollbar-none overflow-auto'>
         {task.map(function(elem,idx)
